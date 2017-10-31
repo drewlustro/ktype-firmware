@@ -1,0 +1,47 @@
+Name = "KType";
+Variant = "standard";
+Layout = "Standard";
+Base = "Base";
+Version = "0.2";
+Author = "jbondeson (Jeremy Bondeson) 2017";
+KLL = "0.5c";
+Date = "2017-10-13";
+Generator = "NONE";
+
+U"ESC" : flashMode();
+U"F1" : U"F13";
+U"F2" : U"F14";
+U"F3" : U"F15";
+U"F4" : U"F16";
+U"F5" : U"F17";
+U"F6" : U"F18";
+U"F7" : U"F19";
+U"F8" : U"F20";
+U"F9" : U"F21";
+U"F10" : U"F22";
+U"F11" : U"F23";
+U"F12" : U"F24";
+U"PAUSE" : animation_control( 0 );
+U"1" : ledControl( 2, 63 );
+U"2" : ledControl( 2, 127 );
+U"3" : ledControl( 2, 190 );
+U"4" : ledControl( 2, 255 );
+U"5" : animation_control( 1 );
+U"6" : animation_control( 2 );
+U"7" : animation_control( 3 );
+U"0" : animation_control( 4 );
+U"MINUS" : animation_control( 5 );
+U"EQUALS" : animation_control( 0 );
+U"INSERT" : CONS"PAUSEPLAY";
+U"HOME" : CONS"STOP";
+U"PAGEUP" : CONS"VOLUMEUP";
+U"DELETE" : CONS"SCANPREVIOUSTRACK";
+U"END" : CONS"SCANNEXTTRACK";
+U"PAGEDOWN" : CONS"VOLUMEDOWN";
+U"UP" : ledControl( 1, 15 );
+U"LEFT" : ledControl( 3, 0 );
+U"DOWN" : ledControl( 0, 15 );
+U"RIGHT" : ledControl( 5, 255 );
+
+
+
