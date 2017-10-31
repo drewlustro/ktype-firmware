@@ -6,6 +6,8 @@
 
 ![ktype-v2017.0](https://i.imgur.com/I3NHUbN.jpg)
 
+![ktype](https://user-images.githubusercontent.com/194885/32202612-575671ee-bdb4-11e7-9579-9ff60f313ae5.gif)
+
 ### Versions
 
 | Release | &nbsp; |
